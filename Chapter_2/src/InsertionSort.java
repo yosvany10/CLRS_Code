@@ -14,7 +14,7 @@ public class InsertionSort {
     }
 
     /**
-     * classical version of inerstion sort per the CLRS into to Algorithms book
+     * classical version of insertion sort per the CLRS intro to Algorithms book
      * @param array array to be sorted
      */
     private static void insertSort(int[] array) {
