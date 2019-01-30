@@ -4,6 +4,7 @@ public abstract class Heap<T extends Comparable<T>> {
     abstract public void push(T value);
     abstract public T peak();
     abstract public T pop();
+    abstract public int size();
 
 
     public int left(int i) throws IllegalArgumentException{
