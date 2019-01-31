@@ -1,24 +1,8 @@
-public abstract class Heap<T extends Comparable<T>> {
-    abstract public void heapify();
-    abstract public void replaceRoot(T value);
-    abstract public void push(T value);
-    abstract public T peak();
-    abstract public T pop();
-    abstract public int size();
-
-
-    public int left(int i) throws IllegalArgumentException{
-        if (i < 0) {
-            throw new IllegalArgumentException("Only positive numbers are allowed");
-        }
-        return i << 1;
-    }
-
-    public int right(int i) throws IllegalArgumentException{
-        if (i < 0) {
-            throw new IllegalArgumentException("Only positive numbers are allowed");
-        }
-        return (i >> 1) + 1;
-    }
-
+public interface Heap<T extends Comparable<T>> {
+    void heapify();
+    void replaceRoot(T value);
+    void push(T value);
+    T peak();
+    T pop();
+    int size();
 }

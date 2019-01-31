@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MaxHeapArray<T extends Comparable<T>> extends Heap<T> {
+public class MaxHeapArray<T extends Comparable<T>> implements Heap<T> {
 
     private ArrayList<T> myHeapArray;
     private int myHeapSize;
