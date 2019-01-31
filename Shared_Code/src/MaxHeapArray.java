@@ -10,33 +10,27 @@ public class MaxHeapArray<T extends Comparable<T>> implements Heap<T> {
         myHeapSize = 0;
     }
 
-    @Override
     public void heapify() {
 
     }
 
-    @Override
     public void replaceRoot(T value) {
 
     }
 
-    @Override
     public void push(T value) {
 
     }
 
-    @Override
     public T peak() {
         return this.myHeapArray.get(1);
     }
 
-    @Override
     public T pop() {
         return null;
     }
 
-    @Override
     public int size() {
-        return 0;
+        return this.myHeapSize;
     }
 }
