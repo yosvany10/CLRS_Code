@@ -1,2 +1,2 @@
 # CLRS_Code
-Just practice code based on material from the CLRS intro to algorithms book
+Code i'm writing as I reread CLRS in my freetime as a refresher.
