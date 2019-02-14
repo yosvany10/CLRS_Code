@@ -4,8 +4,8 @@ import java.util.Collections;
 
 public class MaxHeapArray<T extends Comparable<T>> implements Heap<T> {
 
-    private ArrayList<T> myHeapArray;
-    private int myHeapSize;
+    protected ArrayList<T> myHeapArray;
+    protected int myHeapSize;
 
     public MaxHeapArray() {
         myHeapArray = new ArrayList<>();
